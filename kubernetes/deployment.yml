@@ -18,7 +18,7 @@ spec:
         - name: order
           image: roomrsv.azurecr.io/order:latest
           ports:
-            - containerPort: 80
+            - containerPort: 8080
             
 #          readinessProbe:
 #            httpGet:
