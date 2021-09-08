@@ -23,8 +23,8 @@ spec:
             - name: LOCATION
               valueFrom:
                 configMapKeyRef:
-                  name: application
-                  key: applicationvalue
+                  name: applocation
+                  key: applocationvalue
           readinessProbe:
             httpGet:
               path: '/actuator/health'
